@@ -1,6 +1,5 @@
 import NavBar from '@/components/navBar'
 import Image from 'next/image'
-import Link from 'next/link'
 import { SlArrowRight } from "react-icons/sl";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoCallSharp } from "react-icons/io5";
