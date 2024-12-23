@@ -17,7 +17,7 @@ const Browse = () => {
     {/* Dining Card */}
     <div className="flex flex-col items-center w-64">
       <div className="rounded-xl overflow-hidden">
-        <Image src={"/assest/img-16.png"} alt='dining' width={381} height={480}
+        <Image src={"/assest/img-26.png"} alt='dining' width={381} height={480}
         />
       </div>
       <span className="mt-4 text-xl font-semibold">Dining</span>
@@ -26,7 +26,7 @@ const Browse = () => {
     {/* Living Card */}
     <div className="flex flex-col items-center w-64">
       <div className="rounded-xl overflow-hidden">
-        <Image src={"/assest/img-16.png"} alt='dining' width={381} height={480}
+        <Image src={"/assest/img-27.png"} alt='dining' width={381} height={480}
         />
       </div>
       <span className="mt-4 text-xl font-semibold">Living</span>
@@ -35,7 +35,7 @@ const Browse = () => {
     {/* Bedroom Card */}
     <div className="flex flex-col items-center w-64">
       <div className="rounded-xl overflow-hidden">
-        <Image src={"/assest/img-16.png"} alt='dining' width={381} height={480}
+        <Image src={"/assest/img-28.png"} alt='dining' width={381} height={480}
         />
       </div>
       <span className="mt-4 text-xl font-semibold">Bedroom</span>
