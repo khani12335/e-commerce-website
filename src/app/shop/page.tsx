@@ -11,7 +11,7 @@ import InfoSection from '@/components/Info';
 import ProductCard from '@/components/ProductCard';
 
 
-const shop = () => {
+const Shop = () => {
   const product = [
     // Product data (you can update these with real data)
     {
@@ -198,4 +198,4 @@ const shop = () => {
   )
 }
 
-export default shop
+export default Shop
