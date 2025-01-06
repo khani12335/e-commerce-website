@@ -1,12 +1,14 @@
-"use client"
+"use client";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
+import CartSlider from "@/components/Slider";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
+import { LuSlidersHorizontal } from "react-icons/lu";
 import { SlArrowRight } from "react-icons/sl";
 
 const Product = () => {
@@ -20,14 +22,17 @@ const Product = () => {
     <div className="min-h-screen flex flex-col">
       {/* Navbar */}
       <NavBar />
-
       {/* Breadcrumb */}
-      <div className="py-8 px-6 lg:px-10 bg-pink-100 text-gray-500 text-xl flex items-center">
-        <span>Home</span>
-        <SlArrowRight className="mx-4 text-black" />
-        <span>Shop</span>
-        <span className="text-black mx-4">|</span>
-        <span className="text-black">Asgaard Sofa</span>
+      <div className="py-8 px-6 lg:px-10 bg-pink-100 text-gray-500 text-xl flex items-center justify-between">
+        {/* Left Section */}
+        <div className="flex items-center">
+          <span>Home</span>
+          <SlArrowRight className="mx-4 text-black" />
+          <span>Shop</span>
+          <span className="text-black mx-4">|</span>
+          <span className="text-black">Asgaard Sofa</span>
+        </div>
+        <CartSlider/>
       </div>
 
       {/* Product Section */}

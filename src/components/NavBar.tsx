@@ -56,7 +56,7 @@ const NavBar = () => {
   {/* Mobile Menu Toggle */}
   <div className="md:hidden flex items-center">
     <Button
-      className="text-gray-600 bg-white text-2xl focus:outline-none"
+      className="text-gray-600 bg-white hover:bg-white text-2xl focus:outline-none"
       onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
     >
       <HiOutlineMenu />
