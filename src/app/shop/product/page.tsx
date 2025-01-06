@@ -8,7 +8,6 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
-import { LuSlidersHorizontal } from "react-icons/lu";
 import { SlArrowRight } from "react-icons/sl";
 
 const Product = () => {
