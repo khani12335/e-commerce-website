@@ -1,13 +1,13 @@
-import Footer from '@/components/Footer'
-import InfoSection from '@/components/Info'
-import NavBar from '@/components/NavBar'
-import { Button } from '@/components/ui/button'
+import Footer from "@/components/Footer";
+import InfoSection from "@/components/Info";
+import NavBar from "@/components/NavBar";
+import { Button } from "@/components/ui/button";
 import { SlArrowRight } from "react-icons/sl";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoCallSharp } from "react-icons/io5";
 import { GoClockFill } from "react-icons/go";
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const Contact = () => {
   return (
@@ -23,6 +23,13 @@ const Contact = () => {
           className="rounded-md"
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-pink-200 bg-opacity-40">
+          <Image
+            src="/assest/logo.png" // Replace with the actual path to your image
+            alt="Logo"
+            width={77}
+            height={77}
+            className="mx-auto"
+          />
           <h1 className="text-4xl font-bold ">Contact</h1>
           <p className="flex gap-4 mt-3 ">
             <span className="text-2xl font-bold">Home</span>
@@ -154,8 +161,7 @@ const Contact = () => {
       <InfoSection />
       <Footer />
     </div>
+  );
+};
 
-  )
-}
-
-export default Contact
+export default Contact;

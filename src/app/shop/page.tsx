@@ -1,15 +1,14 @@
-import Footer from '@/components/Footer';
-import NavBar from '@/components/NavBar';
-import { Button } from '@/components/ui/button';
-import Image from 'next/image';
+import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { SlArrowRight } from "react-icons/sl";
 import { HiViewGrid } from "react-icons/hi";
 import { TbLayoutDistributeHorizontal } from "react-icons/tb";
 import { CiSliderHorizontal } from "react-icons/ci";
-import React from 'react'
-import InfoSection from '@/components/Info';
-import ProductCard from '@/components/ProductCard';
-
+import React from "react";
+import InfoSection from "@/components/Info";
+import ProductCard from "@/components/ProductCard";
 
 const Shop = () => {
   const product = [
@@ -127,6 +126,13 @@ const Shop = () => {
         />
         {/* Overlay Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-black bg-pink-50 bg-opacity-50">
+          <Image
+            src="/assest/logo.png" // Replace with the actual path to your image
+            alt="Logo"
+            width={77}
+            height={77}
+            className="mx-auto"
+          />
           <h1 className="text-4xl font-bold">Shop</h1>
           <p className="flex gap-4 mt-5">
             <span className="text-black font-bold text-2xl">Home</span>
@@ -193,9 +199,9 @@ const Shop = () => {
 
       {/* Footer Info Section */}
       <InfoSection />
-      <Footer/>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Shop
+export default Shop;

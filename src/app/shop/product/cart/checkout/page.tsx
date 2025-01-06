@@ -23,6 +23,13 @@ const CheckOut = () => {
           className="rounded-md"
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-pink-200 bg-opacity-50">
+          <Image
+            src="/assest/logo.png" // Replace with the actual path to your image
+            alt="Logo"
+            width={77}
+            height={77}
+            className="mx-auto"
+          />
           <h1 className="text-4xl font-bold ">Checkout</h1>
           <p className="flex gap-4 mt-3">
             <span className="text-2xl font-bold">Home</span>
