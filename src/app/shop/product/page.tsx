@@ -8,6 +8,7 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
+import { LuSlidersHorizontal } from "react-icons/lu";
 import { SlArrowRight } from "react-icons/sl";
 
 const Product = () => {
@@ -31,6 +32,7 @@ const Product = () => {
           <span className="text-black mx-4">|</span>
           <span className="text-black">Asgaard Sofa</span>
         </div>
+        <LuSlidersHorizontal/>
         <CartSlider/>
       </div>
 
