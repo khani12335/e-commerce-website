@@ -24,6 +24,13 @@ const Cart = () => {
         />
         {/* Overlay Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-black bg-pink-50 bg-opacity-50">
+          <Image
+            src="/assest/logo.png" // Replace with the actual path to your image
+            alt="Logo"
+            width={77}
+            height={77}
+            className="mx-auto"
+          />
           <h1 className="text-4xl font-bold">Cart</h1>
           <p className="flex gap-4 mt-5">
             <span className="text-black font-bold text-2xl">Home</span>
